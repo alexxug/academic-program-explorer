@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+#root .loginbtn {
+  float: right;
+  border: 2px solid #fff;
+}
+.topbar {
+  flex-grow: 1;
+}
+#page .fr {
+  float: right;
+  margin: 0 10px;
+}
+#page .container .conbox {
+  width: 100%;
+  font-size: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid #333;
+  min-height: 100px;
+  margin: 10px 0;
+}
+#page .container .conbox .line {
+  overflow: hidden;
+}
+#page .container .conbox .line .fl {
+  width: 15%;
+  float: left;
+  margin: 0 10px;
+  padding: 10px;
+}
+#page .container .conbox .line .fl.b1 {
+  background-color: #4ac5e4;
+}
+#page .container .conbox .line .fl.b2 {
+  background-color: #e4b34a;
+}
+#page .container .conbox .line .fl.b3 {
+  background-color: #4ae48a;
+}
+#page .listbox .box:nth-child(1) .conbox .con {
+  background-color: #e4d338;
+}
+#page .listbox .box:nth-child(2) .conbox .con {
+  background-color: #4ac5e4;
+}
+#page .listbox .box:nth-child(3) .conbox .con {
+  background-color: #4ae48a;
+}
+#page .listbox .conbox {
+  box-shadow: 0px 0px 3px #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#page .listbox .conbox .tit {
+  font-size: 18px;
+  line-height: 40px;
+}
+#page .listbox .conbox .con {
+  margin: 10px 0;
+  padding: 10px;
+}
+#page .listbox .conbox .con p {
+  font-size: 14px;
+}
+.shadowbtn {
+  overflow: hidden;
+}
+.shadowbtn .fr {
+  float: right;
+  margin: 0 10px;
+}
